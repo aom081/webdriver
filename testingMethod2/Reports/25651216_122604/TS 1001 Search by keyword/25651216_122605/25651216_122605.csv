@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS 1001 Search by keyword,Chrome 108.0.0.0,,,2565-12-16 12:26:16,2565-12-16 12:26:37,20.932s,PASSED
+,,,,,,,
+Test Cases/TC1001 Search By keyword,Chrome 108.0.0.0,,,2565-12-16 12:26:16,2565-12-16 12:26:23,7.126s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2565-12-16 12:26:16,2565-12-16 12:26:18,1.927s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2565-12-16 12:26:18,2565-12-16 12:26:19,0.917s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""npru"")",Chrome 108.0.0.0,,,2565-12-16 12:26:19,2565-12-16 12:26:20,0.907s,PASSED
+"click(findTestObject(""Page_Google/input__btnK2""))",Chrome 108.0.0.0,,,2565-12-16 12:26:20,2565-12-16 12:26:22,1.797s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏนครปฐม"", false)",Chrome 108.0.0.0,,,2565-12-16 12:26:22,2565-12-16 12:26:22,0.701s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2565-12-16 12:26:22,2565-12-16 12:26:23,0.579s,PASSED
+,,,,,,,
+Test Cases/TC1002 Search By keyword,Chrome 108.0.0.0,,,2565-12-16 12:26:23,2565-12-16 12:26:30,6.794s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2565-12-16 12:26:23,2565-12-16 12:26:24,1.087s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2565-12-16 12:26:24,2565-12-16 12:26:25,0.848s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""cru"")",Chrome 108.0.0.0,,,2565-12-16 12:26:25,2565-12-16 12:26:26,0.882s,PASSED
+"click(findTestObject(""Page_Google/input__btnK2""))",Chrome 108.0.0.0,,,2565-12-16 12:26:26,2565-12-16 12:26:28,2.226s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏจันทรเกษม"", false)",Chrome 108.0.0.0,,,2565-12-16 12:26:28,2565-12-16 12:26:29,0.917s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2565-12-16 12:26:29,2565-12-16 12:26:30,0.593s,PASSED
+,,,,,,,
+Test Cases/TC1003 Search By keyword,Chrome 108.0.0.0,,,2565-12-16 12:26:30,2565-12-16 12:26:37,6.807s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2565-12-16 12:26:30,2565-12-16 12:26:31,1.134s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2565-12-16 12:26:31,2565-12-16 12:26:32,0.795s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""kru"")",Chrome 108.0.0.0,,,2565-12-16 12:26:32,2565-12-16 12:26:33,0.848s,PASSED
+"click(findTestObject(""Page_Google/input__btnK2""))",Chrome 108.0.0.0,,,2565-12-16 12:26:33,2565-12-16 12:26:35,2.261s,PASSED
+"verifyTextPresent(""ราชภัฏกาญจนบุรี"", false)",Chrome 108.0.0.0,,,2565-12-16 12:26:35,2565-12-16 12:26:36,0.966s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2565-12-16 12:26:36,2565-12-16 12:26:37,0.582s,PASSED
